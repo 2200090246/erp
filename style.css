@@ -1,0 +1,50 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0; 
+  background-image: url('https://res.cloudinary.com/dhy1l9v8j/image/upload/v1724536858/Screenshot_2024-08-25_033011_w35dgo.png'); /* Path to your image */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+}
+.header {
+  background-color: brown;
+  color: white;
+  height: 50px;
+  display: flex;
+  align-items: center; 
+  justify-content: space-between; 
+  font-size:22px;
+  padding: 0 10px; 
+}
+.left {
+  flex: 1; 
+  text-align: center;
+  margin-left:40px;
+  color: white;
+  cursor: pointer;
+}
+.right {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+}
+.about {
+  margin-right: 10px;
+}
+.header .left .login-link {
+    color: white !important; 
+    text-decoration: none; 
+}
+.header .left .login-link:hover {
+    text-decoration: underline; 
+}
+.link-like-text {
+    color: white; /* Link text color */
+    text-decoration: underline; /* Underline to mimic a link */
+    cursor: pointer; /* Standard clickable hand cursor */
+    display: inline; /* Makes sure the element behaves like an inline element */
+}
+
+
